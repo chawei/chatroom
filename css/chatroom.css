@@ -1,0 +1,57 @@
+* {
+ font-family: Helvetica, Arial, sans-serif;
+ font-weight: lighter;
+}
+
+#chatroom_container {
+  position: relative;
+  margin: 50px 0 0 0;
+}
+
+.time {
+  height: 75px;
+  color: #666;
+}
+
+.time:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.time .display {
+  position: relative;
+  width: 100px;
+  height: 100%;
+  background-color: #fff;
+}
+.time .inner {
+  position: absolute;
+  top: -7px;
+  right: 8px;
+}
+.time .block {
+  display: inline-block;
+}
+
+.user_streams {
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.user_stream {
+  display: inline-block;
+  width: 200px;
+}
+
+.user_stream .msgs {
+  position: relative;
+  padding: 0 8px;
+}
+
+.user_stream .msg {
+  position: absolute;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background-color: #e6e6e6;
+}
